@@ -25,7 +25,38 @@ img{
 
 .container{
     max-width: 137rem;
-    /* height: 600px; */
+    height: 600px;
     margin: 0 auto;
-    /* background-color: aquamarine; */
+    background-color: #c4c4c4;
+}
+
+.logo{
+    list-style-type: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo1{
+    margin-top: 30px;
+    font-size: 25px;
+    display: flex;
+}
+
+.logo1 img {
+    width: 25px;
+    height: 35px;
+
+}
+
+nav {
+    padding: 20px
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    font-size: 15px;
 }
