@@ -25,10 +25,10 @@ body {
 }
 
 .logo {
-    list-style-type: none;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
+        list-style-type: none;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
     
 }
 .logo1{
@@ -42,8 +42,6 @@ body {
 
 }
 
-
-
 nav {
     padding: 20px
 }
@@ -52,7 +50,6 @@ nav ul li {
     list-style: none;
     display: inline-block;
     position: relative;
-    display: inline-block;
     padding: 20px;
     font-size: 15px;
 }
