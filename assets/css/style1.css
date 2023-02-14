@@ -107,6 +107,9 @@ header .search{
     padding-left: 3.3rem;
 }
 
+.container nav > i , #menu i{
+    display: none;
+}
 
 @media  screen and (max-width:768px) {
   
