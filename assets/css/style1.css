@@ -192,23 +192,47 @@ header .search {
 
 .hero-data{
     position: absolute;
-    top: 25%;
-    left: 10%;
+    top: 30%;
+    left: 5%;
 
 }
 
 .hero-data h1{
-    font-size: 9rem;
+    font-size: 8rem;
     font-weight: 700;
-    line-height: 11rem;
+    line-height: 9rem;
     color: #fff;
 }
 
 .hero-data p{
+    margin-top: 2rem;
     font-weight: 500;
-    font-size: 1.8rem;
-    line-height: 3.6rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
     color: #cfcfcf;
 }
 
-/***********************************/
+.explore{
+    position: absolute;
+    top: 67%;
+    left: 5%;
+    width: 30rem;
+    height: 7rem;
+}
+
+
+
+#hero > p{
+    position: absolute;
+    top: 72%;
+    left: 5%;
+    font-size: 1.5rem;
+    color: #cfcfcf;
+}
+
+#hero p span{
+    color: #fff;
+}
+
+
+/***********************************
