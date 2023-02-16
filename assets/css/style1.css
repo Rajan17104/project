@@ -93,6 +93,7 @@ header {
     top: 0;
     left: 0;
     transition: all 0.5s;
+    z-index: 9;
 }
 
 header .container {
@@ -182,57 +183,107 @@ header .search {
 
 /***********hero section*********/
 
-#hero{
+#hero {
     background: url(../image/photographer-hand-holding-camera-standing-viewpoint-clouds-panorama-viewpoint-sunrise.jpg);
     background-position: center center;
     background-size: cover;
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
-.hero-data{
+#hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0 0 0 / 0.3);
+}
+
+.hero-data {
     position: absolute;
     top: 30%;
-    left: 5%;
-
 }
 
-.hero-data h1{
-    font-size: 8rem;
+.hero-data h1 {
     font-weight: 700;
-    line-height: 9rem;
-    color: #fff;
+    font-size: 90px;
+    line-height: 110px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
 }
 
-.hero-data p{
-    margin-top: 2rem;
+.hero-data p {
     font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 3rem;
-    color: #cfcfcf;
+    font-size: 18px;
+    line-height: 36px;
+    color: #CFCFCF;
+    margin-bottom: 3rem;
 }
 
-.explore{
-    position: absolute;
-    top: 67%;
-    left: 5%;
-    width: 30rem;
-    height: 7rem;
+.hero-data span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #ECECEC;
 }
 
-
-
-#hero > p{
-    position: absolute;
-    top: 72%;
-    left: 5%;
-    font-size: 1.5rem;
-    color: #cfcfcf;
+#hero .search-data {
+    width: 73.6rem;
+    height: 7.8rem;
+    border-radius: 7.2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1rem 1rem 1rem 2.3rem;
+    margin-bottom: 3rem;
 }
 
-#hero p span{
+#hero .search-data select {
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #9B9B9B;
+    line-height: 3.6rem;
+
+}
+
+#hero .search-data .explore-btn {
+    border: none;
+    padding: 1.8rem 3rem;
+    background-color: #000;
     color: #fff;
+    font-size: 1.8rem;
+    border-radius: 7.2rem;
 }
 
 
-/***********************************
+/***********************************/
+
+
+
+/*******explore titel***********/
+
+#explore {
+    margin: 17.8rem 0;
+}
+
+.main-titel h2 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #020202;
+    margin-bottom: 3rem;
+}
+
+.main-titel p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #878787;
+}
+
+
+/***********************************/
