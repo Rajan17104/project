@@ -177,7 +177,7 @@ header .search {
     }
 }
 
-/*****************************/
+/****************************/
 
 
 
@@ -297,4 +297,21 @@ header .search {
     border-radius: 0.5rem;
 }
 
-/***********************************/
+.swiper-slider{
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.4);
+}
+
+.swiper-slide .card-img{
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+    height: 36rem;
+
+}   
+
+.swiper-slide .card-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+/**********************************/
+

@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style1.css">
     <link rel="stylesheet" href="./assets/css/fonts.css">
@@ -88,13 +90,86 @@
                     <p>Explore the world with what you love beautiful natural beauty.</p>
                 </div>
                 
-                <div class="btn">
+                <!-- <div class="btn">
                     <i class="fa-solid fa-chevron-left"></i>
                     <i class="fa-solid fa-chevron-right"></i>
-                </div>
+                </div> -->
 
-                <div class="block">
-                    <div class="box"></div>
+                <div class="swiper explore-slider">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="card-img">
+                            <img src="./assets/image/pexels-frank-cone-2258536.jpg" alt="">
+                        </div>
+                        <div class="card-text">
+                            <div class="explore-circle">
+                                <span>“</span>
+                            </div>
+                            <h2>Bali, Indonesia.</h2>
+                            <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card-img">
+                            <img src="./assets/image/pexels-petr-ganaj-4045962.jpg" alt="">
+                        </div>
+                        <div class="card-text">
+                            <div class="explore-circle">
+                                <span>“</span>
+                            </div>
+                            <h2>Bali, Indonesia.</h2>
+                            <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card-img">
+                            <img src="./assets/image/pexels-riccardo-307008.jpg" alt="">
+                        </div>
+                        <div class="card-text">
+                            <div class="explore-circle">
+                                <span>“</span>
+                            </div>
+                            <h2>Bali, Indonesia.</h2>
+                            <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card-img">
+                            <img src="./assets/image/photographer-hand-holding-camera-standing-viewpoint-clouds-panorama-viewpoint-sunrise.jpg" alt="">
+                        </div>
+                        <div class="card-text">
+                            <div class="explore-circle">
+                                <span>“</span>
+                            </div>
+                            <h2>Bali, Indonesia.</h2>
+                            <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card-img">
+                            <img src="./assets/image/pexels-frank-cone-2258536.jpg" alt="">
+                        </div>
+                        <div class="card-text">
+                            <div class="explore-circle">
+                                <span>“</span>
+                            </div>
+                            <h2>Bali, Indonesia.</h2>
+                            <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card-img">
+                            <img src="./assets/image/pexels-riccardo-307008.jpg" alt="">
+                        </div>
+                        <div class="card-text">
+                            <div class="explore-circle">
+                                <span>“</span>
+                            </div>
+                            <h2>Bali, Indonesia.</h2>
+                            <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                        </div>
+                      </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -277,6 +352,35 @@
             nesciunt vero! Eos dolore laudantium, ad odit ullam sunt ratione vitae error atque repellendus in quis optio
             id cupiditate quia sed officia </p>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".explore-slider", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 12,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 16,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+  </script>
 
 
     <script>
