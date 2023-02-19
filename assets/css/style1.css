@@ -91,9 +91,14 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
-    left: 0;
-    transition: all 0.5s;
+    left: 0;    
+    transition: all 1s;
     z-index: 9;
+}
+
+header li a {
+    color: #000;
+    padding: 20px 17px;
 }
 
 header .container {
@@ -102,8 +107,42 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* display: inline-block; */
 }
+
+header nav ul li:hover {
+    background-color: #000;
+    transition: all 0.5s;
+}
+
+header nav ul li ul li,
+header nav ul li ul li a {
+    width: 100%;
+}
+
+
+header nav ul li li  ul{
+    position: absolute;
+    top: 0;
+    left:17.7rem;
+}
+
+header nav ul li {
+    position: relative;
+}
+
+header nav ul li ul {
+    display: block;
+    position: absolute;
+    top: 6.3rem;
+    left: 0;
+    background-color: gray;
+    display: none;
+}
+
+header nav ul li:hover > ul {
+    display: inline-block;
+}
+
 
 header nav ul li a {
     color: #fff;
@@ -113,8 +152,7 @@ header nav ul li a {
 
 header nav ul li {
     display: inline-block;
-    padding: 0 3.3rem;
-
+    padding: 2rem 3.3rem;
 }
 
 header nav {
@@ -132,15 +170,19 @@ header .search {
     display: none;
 }
 
+nav ul li a:hover i {
+    transform: rotate(90deg);
+}   
 .dark-header {
     background-color: #000;
 }
 
-@media screen and (max-width:768px) {
 
-    nav>ul {
+@media  screen and (max-width:768px) {
+  
+    nav > ul{
         position: absolute;
-        width: 60%;
+        width: 70%;
         height: 100vh;
         background-color: skyblue;
         top: 0;
@@ -148,34 +190,41 @@ header .search {
         transition: all 1s;
     }
 
-    header .search i {
-        display: none;
-    }
-
-    header nav ul li {
+    header nav ul li  {
         display: block;
-        margin-top: 3rem;
     }
-
-    nav ul>i {
-        padding: 1rem;
-        font-size: 2rem;
+    header nav ul li ul, header nav ul li ul li ul{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    header nav ul li ul li > a {
+        padding-left: 40px;
+    }
+    header nav ul li ul li ul li > a{
+        padding-left: 60px;
+    }
+    header nav ul li a{
+        width: 100%;
+    }
+    nav ul > i{
+        padding: 20px;
+        font-size: 20px; 
         float: right;
         z-index: 999;
         position: relative;
         display: inline-block !important;
     }
-
-    nav>i {
-        font-size: 2rem;
-        /* padding: 1rem; */
+    nav > i{
+        font-size: 20px;
+        padding: 20px;
         display: inline-block !important;
     }
-
-    .showHide {
-        right: -70%;
+    .showHide{
+        right:-70%;
     }
-}
+} 
 
 /****************************/
 
@@ -356,4 +405,15 @@ header .search {
     margin-left: 2rem;
 }
 
+.swiper-wrapper .card-text{
+    display: none;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+   
+}
+
+.swiper-wrapper .swiper-slide:hover .card-text{
+    display: block;
+    /* transition: all 1s; */
+}
 /**********************************/
