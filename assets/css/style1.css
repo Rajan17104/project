@@ -334,24 +334,18 @@ nav ul li a:hover i {
     color: #878787;
 }
 
-.btn {
-    display: flex;
-    justify-content: space-between;
+
+
+.explore-slider .swiper-slide:hover {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 25%);
+    transform: translateY(-1rem);
+    transition: all 0.5s;
 }
 
-.btn i {
-    font-size: 2rem;
-    border: 2px solid red;
-    padding: 1.5rem 1.8rem;
-    border-radius: 0.5rem;
+.swiper-slide{
+    border-radius: 1rem;
+    padding-top: 5rem;
 }
-
-.explore-slider .swiper-slide {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.50);
-}
-
-
-
 .swiper-slide .card-img {
     height: 36rem;
 }
@@ -359,16 +353,17 @@ nav ul li a:hover i {
 .swiper-slide .card-img img {
     height: 100%;
     width: 100%;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 1rem;
 }
 
 .swiper-wrapper {
     margin-top: 2rem;
+    padding: 20px 0;
 }
 
 .explore-slider .card-text {
     position: relative;
-    margin-top: 5rem;
+    padding: 1rem 1rem 2rem 1rem ;
 }
 
 .explore-slider .card-text h2 {
@@ -389,11 +384,11 @@ nav ul li a:hover i {
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
-    position: absolute;
-    top: -8rem;
+    position: absolute; 
+    top: -6rem;
     right: 3rem;
     background-color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
 }
 
 .explore-slider .explore-circle span {
@@ -406,14 +401,42 @@ nav ul li a:hover i {
 }
 
 .swiper-wrapper .card-text{
-    display: none;
+    opacity: 0;
     border-radius: 0 0 1rem 1rem;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-   
+    
 }
 
-.swiper-wrapper .swiper-slide:hover .card-text{
-    display: block;
-    /* transition: all 1s; */
+.explore-slider .swiper-slide:hover .card-text{
+    opacity: 1;
+
+} 
+
+
+.explore-slider .swiper-slide:hover .card-img img{
+    border-radius: 1rem 1rem 0 0;
+    height: 32rem;
 }
+
+.explore-slider-section{
+    position: relative;
+   
+}
+.explore-slider-section .swiper-button-prev:after ,.swiper-button-next:after{
+    font-size: 2rem;
+}
+
+
+.explore-slider-section .swiper-button-prev,.swiper-button-next{
+    position:absolute;
+    top: 0;
+    width: 7rem;
+    height: 7rem;
+    color: #000;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 20%);
+}
+
+
+
 /**********************************/
