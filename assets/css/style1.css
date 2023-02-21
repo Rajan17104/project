@@ -91,9 +91,9 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
-    left: 0;    
+    left: 0;
     transition: all 1s;
-    z-index: 9;
+    z-index: 11;
 }
 
 header li a {
@@ -120,10 +120,10 @@ header nav ul li ul li a {
 }
 
 
-header nav ul li li  ul{
+header nav ul li li ul {
     position: absolute;
     top: 0;
-    left:17.7rem;
+    left: 17.7rem;
 }
 
 header nav ul li {
@@ -139,7 +139,7 @@ header nav ul li ul {
     display: none;
 }
 
-header nav ul li:hover > ul {
+header nav ul li:hover>ul {
     display: inline-block;
 }
 
@@ -172,15 +172,16 @@ header .search {
 
 nav ul li a:hover i {
     transform: rotate(90deg);
-}   
+}
+
 .dark-header {
     background-color: #000;
 }
 
 
-@media  screen and (max-width:768px) {
-  
-    nav > ul{
+@media screen and (max-width:768px) {
+
+    nav>ul {
         position: absolute;
         width: 70%;
         height: 100vh;
@@ -190,41 +191,49 @@ nav ul li a:hover i {
         transition: all 1s;
     }
 
-    header nav ul li  {
+    header nav ul li {
         display: block;
     }
-    header nav ul li ul, header nav ul li ul li ul{
+
+    header nav ul li ul,
+    header nav ul li ul li ul {
         position: relative;
         top: 0;
         left: 0;
         width: 100%;
     }
-    header nav ul li ul li > a {
+
+    header nav ul li ul li>a {
         padding-left: 40px;
     }
-    header nav ul li ul li ul li > a{
+
+    header nav ul li ul li ul li>a {
         padding-left: 60px;
     }
-    header nav ul li a{
+
+    header nav ul li a {
         width: 100%;
     }
-    nav ul > i{
+
+    nav ul>i {
         padding: 20px;
-        font-size: 20px; 
+        font-size: 20px;
         float: right;
         z-index: 999;
         position: relative;
         display: inline-block !important;
     }
-    nav > i{
+
+    nav>i {
         font-size: 20px;
         padding: 20px;
         display: inline-block !important;
     }
-    .showHide{
-        right:-70%;
+
+    .showHide {
+        right: -70%;
     }
-} 
+}
 
 /****************************/
 
@@ -342,10 +351,11 @@ nav ul li a:hover i {
     transition: all 0.5s;
 }
 
-.swiper-slide{
+.swiper-slide {
     border-radius: 1rem;
     padding-top: 5rem;
 }
+
 .swiper-slide .card-img {
     height: 36rem;
 }
@@ -363,7 +373,7 @@ nav ul li a:hover i {
 
 .explore-slider .card-text {
     position: relative;
-    padding: 1rem 1rem 2rem 1rem ;
+    padding: 1rem 1rem 2rem 1rem;
 }
 
 .explore-slider .card-text h2 {
@@ -384,7 +394,7 @@ nav ul li a:hover i {
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
-    position: absolute; 
+    position: absolute;
     top: -6rem;
     right: 3rem;
     background-color: #fff;
@@ -400,34 +410,37 @@ nav ul li a:hover i {
     margin-left: 2rem;
 }
 
-.swiper-wrapper .card-text{
+.swiper-wrapper .card-text {
     opacity: 0;
     border-radius: 0 0 1rem 1rem;
-    
+
 }
 
-.explore-slider .swiper-slide:hover .card-text{
+.explore-slider .swiper-slide:hover .card-text {
     opacity: 1;
 
-} 
+}
 
 
-.explore-slider .swiper-slide:hover .card-img img{
+.explore-slider .swiper-slide:hover .card-img img {
     border-radius: 1rem 1rem 0 0;
     height: 32rem;
 }
 
-.explore-slider-section{
+.explore-slider-section {
     position: relative;
-   
+
 }
-.explore-slider-section .swiper-button-prev:after ,.swiper-button-next:after{
+
+.explore-slider-section .swiper-button-prev:after,
+.swiper-button-next:after {
     font-size: 2rem;
 }
 
 
-.explore-slider-section .swiper-button-prev,.swiper-button-next{
-    position:absolute;
+.explore-slider-section .swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
     top: 0;
     width: 7rem;
     height: 7rem;
@@ -440,3 +453,71 @@ nav ul li a:hover i {
 
 
 /**********************************/
+
+/**********why section************/
+
+#why {
+    background: url(../image/pexels-mengliu-di-3064079.jpg);
+    background-position: center center;
+    background-size: cover;
+    /* width: 100%; */
+    height: 60rem;
+    position: relative;
+
+}
+
+
+.main-titel1 h2 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.main-titel1 p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #878787;
+}
+
+.swiper-slide {
+    background-color: #fff;
+    height: 60rem;
+    padding-left: 1.5rem;
+    justify-content: space-around;
+}
+
+.why-slide .swiper-slide .why-img {
+
+    padding-bottom: 3rem;
+}
+
+.why-slide .why-text h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    padding: 1rem 0 ;
+}
+
+.why-slide .why-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #858585;
+    padding-bottom: 2rem;
+}
+
+.why-slide a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+
+/************************************/

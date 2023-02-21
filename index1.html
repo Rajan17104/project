@@ -186,20 +186,89 @@
                 </div>
             </div>
         </section>
+
+        <section id="why">
+            <div class="container">
+                <div class="main-titel1">
+                    <h2>Why choose Us?</h2>
+                    <p>our service is reliable and convenient, our service is quality.</p>
+                </div>
+                <div class="swiper why-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/image/Group 31 (3).png" alt="">
+                            </div>
+                            <div class="why-text">
+                                <h4>Best Service</h4>
+                                 <p>our service is reliable and 
+                                  <br>  convenient, our service is <br> quality. </p>
+                                <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/image/Group 31 (4).png" alt="">
+                            </div>
+                            <div class="why-text">
+                                <h4>Price Guarantee</h4>
+                                 <p>our service is reliable and 
+                                  <br>  convenient, our service is <br> quality. </p>
+                                <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/image/Group 31 (5).png" alt="">
+                            </div>
+                            <div class="why-text">
+                                <h4>Handpicked Hotels</h4>
+                                 <p>our service is reliable and 
+                                  <br>  convenient, our service is <br> quality. </p>
+                                <a href="#">Leaern more<i class="fa-solid fa-arrow-right-long"></i> </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/image/Group 31 (3).png" alt="">
+                            </div>
+                            <div class="why-text">
+                                <h4>Best Service</h4>
+                                 <p>our service is reliable and 
+                                  <br>  convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="why-img">
+                                <img src="./assets/image/Group 31 (4).png" alt="">
+                            </div>
+                            <div class="why-text">
+                                <h4>Price Guarantee</h4>
+                                 <p>our service is reliable and
+                                  <br>   convenient, our service is <br> quality.</p>
+                                <a href="#">Leaern more <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!-- <script>
+    <script>
         function toggleMenu() {
             document.getElementById("menu").classList.toggle('showHide')
         }
-    </script> -->
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".explore-slider", {
+        var swiper = new Swiper(".explore-slider",{
             slidesPerView: 1,
             spaceBetween: 10,
             pagination: {
@@ -226,6 +295,37 @@
             },
         });
     </script>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper1 = new Swiper(".why-slide",{
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 12,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 16,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+        },
+    });
+</script>
 
 
     <script>
