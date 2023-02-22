@@ -91,7 +91,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
-    left: 0;    
+    left: 0;
     transition: all 1s;
     z-index: 11;
 }
@@ -120,10 +120,10 @@ header nav ul li ul li a {
 }
 
 
-header nav ul li li  ul{
+header nav ul li li ul {
     position: absolute;
     top: 0;
-    left:17.7rem;
+    left: 17.7rem;
 }
 
 header nav ul li {
@@ -139,7 +139,7 @@ header nav ul li ul {
     display: none;
 }
 
-header nav ul li:hover > ul {
+header nav ul li:hover>ul {
     display: inline-block;
 }
 
@@ -172,10 +172,12 @@ header .search {
 
 nav ul li a:hover i {
     transform: rotate(90deg);
-}   
+}
+
 .dark-header {
     background-color: #000;
 }
+
 
 @media screen and (max-width:768px) {
 
@@ -459,9 +461,9 @@ nav ul li a:hover i {
     background-position: center center;
     background-size: cover;
     /* width: 100%; */
-    height: 50rem;
+    height: 60rem;
     position: relative;
-    padding-top: 3rem;
+
 }
 
 
@@ -472,6 +474,7 @@ nav ul li a:hover i {
     text-align: center;
     color: #fff;
     margin-bottom: 3rem;
+    padding-top: 2rem;
 }
 
 .main-titel1 p {
@@ -482,17 +485,19 @@ nav ul li a:hover i {
     color: #878787;
 }
 
-#why .swiper-slide {
+.swiper-slide {
     background-color: #fff;
-    height: 60rem;
+    height: 50rem;
     padding-left: 1.5rem;
     justify-content: space-around;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 20%);
 }
 
 .why-slide .swiper-slide .why-img {
-
     padding-bottom: 3rem;
+}
+.why-slider-section .swiper-wrapper{
+    padding-top: 15rem;
 }
 
 .why-slide .why-text h4 {
@@ -501,6 +506,7 @@ nav ul li a:hover i {
     line-height: 36px;
     color: #000000;
     padding: 1rem 0 ;
+    
 }
 
 .why-slide .why-text p {
@@ -517,7 +523,37 @@ nav ul li a:hover i {
     line-height: 27px;
     color: #000000;
 }
+.why-slider-section {
+    position: relative;
+}
+
+.why-slider-section .swiper-button-prev-1:after,
+.swiper-button-next-1:after {
+    font-size: 2rem;
+    color: #000;
+}
 
 
+.why-slider-section .swiper-button-prev-1,
+.swiper-button-next-1 {
+    width: 7rem;
+    height: 7rem;
+    background-color:#fff;
+    color: #000;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 20%);
+}
+
+.why-slider-section .swiper-button-prev-1{
+    position: absolute;
+    top: 0rem;
+    left: -8rem;
+}
+
+.why-slider-section .swiper-button-next-1{
+    position: absolute;
+    top: 0rem;
+    right: -8rem;
+}
 
 /************************************/
