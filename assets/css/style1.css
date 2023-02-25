@@ -367,7 +367,6 @@ nav ul li a:hover i {
 }
 
 .swiper-wrapper {
-    margin-top: 2rem;
     padding: 20px 0;
 }
 
@@ -463,7 +462,7 @@ nav ul li a:hover i {
 }
 
 .why-slide {
-    width: 12   0rem;
+    width: 12 0rem;
 }
 
 
@@ -542,6 +541,7 @@ nav ul li a:hover i {
     box-shadow: 0 8px 50px 0 rgba(0 0 0 / 0.1);
 }
 
+
 .why-slider-section .prev-1 {
     left: 0;
 }
@@ -558,8 +558,8 @@ nav ul li a:hover i {
     content: 'prev';
 }
 
-.why-slider-section .next-1:after,
-.why-slider-section .prev-1:after {
+.why-slider-section .next-1::after,
+.why-slider-section .prev-1::after {
     font-family: swiper-icons;
     font-size: 2rem;
     text-transform: none !important;
@@ -573,7 +573,7 @@ nav ul li a:hover i {
 /***********our section***************/
 
 #our {
-    margin-top: 18rem;
+    margin: 17.8rem 0;
 }
 
 .our-img {
@@ -588,26 +588,18 @@ nav ul li a:hover i {
 
 /**************************************/
 
+ /******client********/
 
-/********client************/
-
-#client {
+#client{
     margin: 17.8rem 0;
 }
 
-.client-container{
-    margin-left:  calc((100% - 137rem) / 2);
-   
+.client-container {
+    margin-left: calc((100% - 137rem) / 2);
+  
 }
 
-.titel h5 {
-
-    width: 313px;
-    height: 70px;
-    left: 43px;
-    top: 3489px;
-    font-family: 'Poppins';
-    font-style: normal;
+#client .titel h3 {
     font-weight: 500;
     font-size: 30px;
     line-height: 70px;
@@ -615,126 +607,72 @@ nav ul li a:hover i {
     color: #626262;
 }
 
-.titel h2 {
-    width: 596px;
-    height: 70px;
-    left: 44px;
-    top: 3551px;
-    font-family: 'Poppins';
-    font-style: normal;
+#client .titel h2 {
     font-weight: 600;
     font-size: 60px;
     line-height: 70px;
     color: #020202;
+    margin-bottom: 1.8rem;
 }
 
-.titel p {
-    width: 443px;
-    height: 80px;
-    left: 43px;
-    top: 3639px;
-    font-family: 'Poppins';
-    font-style: normal;
+#client .titel P {
     font-weight: 500;
     font-size: 18px;
     line-height: 40px;
     color: #626262;
+    margin-bottom: 2    rem;
+}
+
+.client-Swiper .swiper-slide .client-mani-slider {
+    width: 39.9rem;
+    height: 43.2rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px rgba(0, .0, 0, 20%);
+    border-radius: 1rem;
+}
+
+
+.swiper-slide .client-img{
+    margin-left: 12.7rem;
+    margin-bottom: -4rem;
+   
+}
+
+.client-mani-slider .client-name {
+    text-align: center;
+    padding-top: 20%;
     padding-bottom: 5rem;
 }
 
-.client-slider {
-    padding-top: 10rem;
-}
-
-
-.client-slider .swiper-slide {
-    position: relative;
-    background-color: #fff;
-    height: 45rem;
-    padding-left: 1.5rem;
-    justify-content: space-around;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 30%);
-
-}
-
-.client-slider .swiper-slide img {
-    position: absolute;
-    top: -10%;
-    left: 11.5rem;
-
-}
-
-.client-slider .swiper-slide h4 {
-    position: absolute;
-    /* width: 172px;
-    height: 70px; */
-    left: 12.5rem;
-    top: 10rem;
-    font-family: 'Poppins';
-    font-style: normal;
+.client-mani-slider .client-name h5 {
     font-weight: 600;
     font-size: 24px;
-    line-height: 70px;
+    line-height: 30px;
     text-align: center;
     color: #000000;
 }
 
-.client-slider .swiper-slide h5 {
-    position: absolute;
-    /* width: 172px;
-    height: 70px; */
-    left: 10rem;
-    top: 10rem;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 70px;
-    text-align: center;
-    color: #000000;
-}
-
-.client-slider .swiper-slide h6 {
-    position: absolute;
-    /* width: 78px;
-    height: 70px; */
-    left: 14rem;
-    top: 13rem;
-    font-family: 'Poppins';
-    font-style: normal;
+.client-mani-slider .client-name p {
     font-weight: 500;
     font-size: 18px;
-    line-height: 70px;
     text-align: center;
     color: #858585;
 }
 
-.client-slider .swiper-slide .star {
-
-    position: absolute;
-    width: 400px;
-    height: 21px;
-    left: -8rem;
-    top: 25rem;
-
-}
-
-.client-slider .swiper-slide .star p {
-    position: absolute;
-    left: 11rem;
-    top: 4rem;
-    font-family: 'Poppins';
-    font-style: normal;
+.client-mani-slider .client-data {
+    padding-left: 5rem;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     color: #858585;
-    
 }
 
-.why-slider-section .why-btn{
-    display: flex;
+.client-mani-slider .client-data img {
+    padding-bottom: 1.8rem;
 }
+
+
+
 
 .client-slider-section .prev-2,
 .client-slider-section .next-2 {
@@ -742,7 +680,7 @@ nav ul li a:hover i {
     width: 7rem; 
     height: 7rem;
     background-color: #fff;
-    padding-top: 2.8rem;
+    padding: 2.8rem;
     text-align: center;
     border-radius: 1rem;
     box-shadow: 5px 5px  5px 5px rgba(0 0 0 / 20%);
@@ -772,5 +710,10 @@ nav ul li a:hover i {
     letter-spacing: 0;
     font-variant: initial;
     line-height: 1;
-}
+} 
+ 
+
+
+
+
 /*****************************/
