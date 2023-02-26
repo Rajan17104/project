@@ -473,7 +473,7 @@ nav ul li a:hover i {
     text-align: center;
     color: #fff;
     margin-bottom: 3rem;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .main-titel1 p {
@@ -588,15 +588,15 @@ nav ul li a:hover i {
 
 /**************************************/
 
- /******client********/
+/******client********/
 
-#client{
+#client {
     margin: 17.8rem 0;
 }
 
 .client-container {
     margin-left: calc((100% - 137rem) / 2);
-  
+
 }
 
 #client .titel h3 {
@@ -620,7 +620,7 @@ nav ul li a:hover i {
     font-size: 18px;
     line-height: 40px;
     color: #626262;
-    margin-bottom: 2    rem;
+    margin-bottom: 2 rem;
 }
 
 .client-Swiper .swiper-slide .client-mani-slider {
@@ -632,10 +632,10 @@ nav ul li a:hover i {
 }
 
 
-.swiper-slide .client-img{
+.swiper-slide .client-img {
     margin-left: 12.7rem;
     margin-bottom: -4rem;
-   
+
 }
 
 .client-mani-slider .client-name {
@@ -676,14 +676,14 @@ nav ul li a:hover i {
 
 .client-slider-section .prev-2,
 .client-slider-section .next-2 {
-    
-    width: 7rem; 
+
+    width: 7rem;
     height: 7rem;
     background-color: #fff;
     padding: 2.8rem;
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 5px 5px  5px 5px rgba(0 0 0 / 20%);
+    box-shadow: 5px 5px 5px 5px rgba(0 0 0 / 20%);
 }
 
 .client-slider-section .prev-2 {
@@ -700,7 +700,7 @@ nav ul li a:hover i {
 
 .prev-2:after {
     content: 'prev';
-} 
+}
 
 .client-slider-section .next-2:after,
 .client-slider-section .prev-2:after {
@@ -710,10 +710,64 @@ nav ul li a:hover i {
     letter-spacing: 0;
     font-variant: initial;
     line-height: 1;
-} 
- 
+}
 
+/*****************************/
+
+
+/*******subcribe*************/
+
+#subcribe{
+    background: url(../image/landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal.jpg);
+    background-size: 100%;
+    height: 54rem;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.type {
+    width: 67.6rem;
+    height: 6.9rem;
+    background-color: #fff;
+    border-radius: 5rem;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 8.8rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.type h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #9B9B9B;
+    padding: 1.6rem;
+}
+
+.type .type-btn{
+  margin: 0.5rem; 
+}
+.type .type-btn button {
+    border: none;
+    padding: 1.8rem 3rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 7.2rem;
+
+}
 
 
 
 /*****************************/
+
+
+/*********top**************/
+
+.logo img{
+    
+}
+
+/*************************/
