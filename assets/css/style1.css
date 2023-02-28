@@ -928,11 +928,11 @@ nav ul li a:hover i {
     #hero .search-data .explore-btn {
         padding: 1.5rem 2rem;
     }
-    #why {
-        margin: 10.5rem;
-    }
     .swiper-slide .card-img img {
         height: 80%;
+    }
+    .explore-slider .swiper-slide:hover .card-img img {
+        height: 32rem;
     }
 }
 
