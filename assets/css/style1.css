@@ -178,7 +178,7 @@ nav ul li a:hover i {
     background-color: #000;
 }
 
-
+/* 
 @media screen and (max-width:768px) {
 
     nav>ul {
@@ -233,7 +233,7 @@ nav ul li a:hover i {
     .showHide {
         right: -70%;
     }
-}
+} */
 
 /****************************/
 
@@ -867,3 +867,78 @@ nav ul li a:hover i {
 }
 
 /********************/
+
+
+/******responsive***********/
+
+/* 1366 - 1440 (laptop)*/
+@media  screen and (max-width: 1440px) {
+    .container{
+        max-width: 133rem;
+    }
+    .hero-data h1 {
+        font-size: 8rem;
+        line-height: 10rem;
+    }
+    #explore {
+        margin: 10.5rem;
+    }
+    .main-titel h2 {
+        font-size: 55px;
+        line-height: 65px;
+        margin-bottom: 2rem;
+    }
+    .explore-slider-section .swiper-button-prev, .swiper-button-next {
+        width: 6rem;
+        height: 6rem;
+    }
+    #why {
+        margin: 10.5rem;
+    }
+}
+
+/* 1200 - 1365 (big ipad) */
+@media screen and (max-width: 1365px){
+    .container{
+        max-width: 115rem;
+    }
+    header nav ul li {
+        padding: 2rem;
+    }
+    .hero-data h1 {
+        font-size: 7rem;
+        line-height: 7rem;
+    }
+    #explore {
+        margin: 10.5rem;
+    }
+    .main-titel h2 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 1.5rem;
+    }
+    .explore-slider-section .swiper-button-prev, .swiper-button-next {
+        width: 5rem;
+        height: 5rem;
+    }
+    #hero .search-data {
+        width: 60rem;
+        height: 6rem;
+    }
+    #hero .search-data .explore-btn {
+        padding: 1.5rem 2rem;
+    }
+    #why {
+        margin: 10.5rem;
+    }
+    .swiper-slide .card-img img {
+        height: 80%;
+    }
+}
+
+/* 992 - 1199 (big tablet) */
+/* @media screen and (max-width: 1199px){
+    .container{
+        max-width: 90rem;
+    }
+} */
