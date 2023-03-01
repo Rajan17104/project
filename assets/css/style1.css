@@ -602,7 +602,7 @@ nav ul li a:hover i {
 
 /******client********/
 
-client-container {
+.client-container {
     margin-left: calc((100% - 137rem) / 2);
 
 }
@@ -904,7 +904,7 @@ client-container {
         line-height: 10rem;
     }
     #explore {
-        margin: 10.5rem;
+        margin: 10.5rem 0;
     }
     .main-titel h2 {
         font-size: 55px;
@@ -922,9 +922,9 @@ client-container {
         margin-left: calc((100% - 115rem) / 2);
         
     }
-    /* #client .swiper-slide .main-client{
-     margin: 0 20px;
-    } */
+    #client .swiper-slide{
+     margin: 0 50px;
+    }
 }
 
 /* 1200 - 1365 (big ipad) */
@@ -933,14 +933,14 @@ client-container {
         max-width: 95%;
     }
     header nav ul li {
-        padding: 0.5rem;
+        padding: 1rem;
     }
     .hero-data h1 {
         font-size: 7rem;
         line-height: 7rem;
     }
     #explore {
-        margin: 10.5rem;
+        margin: 10.5rem 0;
     }
     .main-titel h2 {
         font-size: 50px;
@@ -966,17 +966,20 @@ client-container {
     }
     .client-container {
         margin-left: calc((100% - 95%) / 2);
-        
     } 
-    #client .swiper-slide .main-client{
-     margin: 0 20px;
-    }
+    
      
 }
 
 /* 992 - 1199 (big tablet) */
-/* @media screen and (max-width: 1199px){
+@media screen and (max-width: 1199px){
     .container{
-        max-width: 90rem;
+        max-width: 95%;
     }
-} */
+    header nav ul li {
+        padding: 1rem;
+    }
+    #why .swiper-slide {
+        margin: 0 20px;
+    }
+}
