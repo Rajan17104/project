@@ -594,14 +594,16 @@ nav ul li:hover i {
 /******client********/
 
 .client-container {
-    margin-left: calc((100% - 137rem) / 2);
-
+    margin-left: calc((100% - 141rem) / 2);
 }
 
 #client {
     margin: 17.8rem 0;
 }
 
+#client .titel{
+    padding-left: 4.3rem;
+}
 #client .titel h3 {
     font-weight: 500;
     font-size: 30px;
@@ -624,6 +626,10 @@ nav ul li:hover i {
     line-height: 40px;
     color: #626262;
     margin-bottom: 13rem;
+}
+
+#client .swiper-slide{
+    padding-left: 4.3rem;
 }
 
 .client-Swiper .swiper-slide .client-mani-slider {
