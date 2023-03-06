@@ -123,7 +123,7 @@ header nav ul li ul li a {
 header nav ul li li ul {
     position: absolute;
     top: 0;
-    left: 18rem;
+    left: 14.5rem;
 }
 
 header nav ul li {
@@ -172,7 +172,12 @@ header .search {
     display: none;
 }
 
-nav ul li :hover i{
+nav ul li a:hover i{
+    transform: rotate(90deg);
+    transition: all 0.5s;
+}
+
+nav ul li ul li:hover i{
     transform: rotate(90deg);
     transition: all 0.5s;
 }
