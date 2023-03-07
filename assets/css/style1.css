@@ -954,11 +954,16 @@ nav ul li ul li:hover i{
 /* 1366 - 1440 (laptop)*/
 @media screen and (max-width: 1440px) {
     .container {
-        max-width: 137rem;
+        max-width: 134rem;
     }
 
     header .container {
-        padding: 0.5rem;
+        padding: 0.5rem 2rem;
+    }
+
+    #hero {
+        /* height: 100vh; */
+        height: 85rem;
     }
 
     .hero-data h1 {
@@ -988,6 +993,10 @@ nav ul li ul li:hover i{
     #why {
         margin: 10.5rem 0;
     }
+    
+    #why .why_data h1 {
+        font-size: 55px;
+    }
 
     .why_images {
         margin: 0 70px;
@@ -1002,7 +1011,7 @@ nav ul li ul li:hover i{
     }
 
     .client-container {
-        margin-left: calc((100% - 137rem) / 2);
+        margin-left: calc((100% - 134rem) / 2);
 
     }
 
@@ -1018,7 +1027,6 @@ nav ul li ul li:hover i{
         line-height: 65px
     }
     #client .titel P {
-        font-size: 17px;
         line-height: 30px;
     }
     .client-slide-section .prev2 {
@@ -1037,20 +1045,17 @@ nav ul li ul li:hover i{
     .main-titel1 h2 {
         font-size: 55px;
     }
-    .main-titel1 p {
-        font-size: 17px;
-    }
      .type {
          margin-top: 6.8rem
      }
      .traveller1 img{
         width: 33rem;
         height: 7rem;
-     }
+     } 
     
 }
 
-/* 1200 - 1365 (big ipad) */
+/* 1200 - 1365 (big ipad) 
 @media screen and (max-width: 1365px) {
     .container {
         max-width: 95%;
@@ -1108,8 +1113,9 @@ nav ul li ul li:hover i{
 
 
 }
+*/
 
-/* 992 - 1199 (big tablet) */
+/* 992 - 1199 (big tablet) 
 @media screen and (max-width: 1199px) {
     .container {
         max-width: 95%;
@@ -1135,4 +1141,5 @@ nav ul li ul li:hover i{
     }
 
 }
-
+*/
+ 
