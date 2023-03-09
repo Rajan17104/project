@@ -353,7 +353,7 @@ nav ul li ul li:hover i{
     transition: all 0.5s;
 }
 
-.swiper-slide {
+ #explore .swiper-slide {
     border-radius: 1rem;
     padding-top: 5rem;
 }
@@ -436,7 +436,7 @@ nav ul li ul li:hover i{
 
 .explore-slider-section .swiper-button-prev:after,
 .swiper-button-next:after {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 
@@ -446,7 +446,7 @@ nav ul li ul li:hover i{
     top: 0;
     width: 7rem;
     height: 7rem;
-    color: #000;
+    color: #727272;
     background-color: #fff;
     border-radius: 1rem;
     box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 10%);
@@ -473,12 +473,17 @@ nav ul li ul li:hover i{
     
 }
 
+#why .swiper-slide {
+    border-radius: 1rem;
+    padding-top: 12rem;
+}
+
 #why .why_data{
     position: relative;
     z-index: 9;
 }
 
-#why .why_data h1 {
+#why .why_data h2 {
     font-weight: 700;
     font-size: 60px;
     line-height: 90px;
@@ -517,37 +522,49 @@ nav ul li ul li:hover i{
     box-shadow: 0px 8px 60px 0 rgba(0, 0, 0, 15%);
 }
 
-.why_btn .prev-1,
-.why_btn .next-1 {
-    z-index: 9;
-    position: absolute;
-    top: -9rem;
-    width: 7rem;
-    height: 6.6rem;
-    box-shadow: 0px 8px 60px 0 rgba(0, 0, 0, 15%);
-    background: #FFFFFF;
-    border-radius: 10px;
-    font-size: 3rem;
-    padding-top: 3.5px;
-    text-align: center;
-    line-height: 6.5rem;
-    cursor: pointer;
-}
-
-#why .why_btn {
-    position: relative;
-    margin-top: 100px;
-}
-
 .why_btn .prev-1 {
-    left: 0;
-    color: #737373;
+    left: 10rem ;
+    color: #727272;
 }
 
 .why_btn .next-1 {
-    right: 0;
-    color: #737373;
+    right: 11rem;
+    color: #727272;
 }
+
+.why_btn .next-1,
+.why_btn .prev-1 {
+    position: absolute;
+    width: 7rem;
+    top: rem;
+    height: 7rem;
+    z-index: 9;
+    padding-top: 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 8px 50px 0 rgba(0, .0, 0, 0.3);
+}
+
+.prev-1:after {
+    content: 'prev';
+}
+
+.next-1:after {
+    content: 'next';
+}
+
+.why_btn .prev-1::after,
+.why_btn .next-1::after  {
+    font-family: swiper-icons;
+    font-size: 2.7rem;
+    text-transform: none !important;
+    letter-spacing: 0;
+    color: #727272;
+    font-variant: initial;
+    line-height: 1;
+}
+
 
 .why_slider .swiper-slide .why_desc h4 {
     font-weight: 600;
@@ -707,11 +724,13 @@ nav ul li ul li:hover i{
 }
 
 .client-slide-section .prev2 {
-    right: 26rem;
+    right: 24rem;
+    color: #727272;
 }
 
 .client-slide-section .next2 {
-    right: 13rem;
+    right: 10rem;
+    color: #727272;
 }
 
 .client-slide-section .next2,
@@ -735,7 +754,8 @@ nav ul li ul li:hover i{
     content: 'next';
 }
 
-.client-slide-section .prev2::after {
+.client-slide-section .prev2::after,
+.client-slide-section .next2::after  {
     font-family: swiper-icons;
     font-size: 2.7rem;
     text-transform: none !important;
@@ -745,15 +765,6 @@ nav ul li ul li:hover i{
     line-height: 1;
 }
 
-.client-slide-section .next2::after {
-    font-family: swiper-icons;
-    font-size: 2.7rem;
-    text-transform: none !important;
-    letter-spacing: 0;
-    color: #727272;
-    font-variant: initial;
-    line-height: 1;
-}
 
 /****************************/
 
@@ -921,11 +932,11 @@ nav ul li ul li:hover i{
 }
 
 .follow a i:hover {
-    color: #3B5998;
+    color: #1A77F2;
 }
 
 .follow a:nth-child(3) i:hover {
-    color: skyblue;
+    color: #1D9BF2;
 }
 
 .follow a:last-child i:hover {
@@ -961,30 +972,45 @@ nav ul li ul li:hover i{
     header .container {
         padding: 0.5rem 2rem;
     }
+    header nav ul li {
+        padding: 2rem 2.5rem;
+    }
 
     #hero {
-        /* height: 100vh; */
-        height: 85rem;
+        height: 100vh;
+        /* height: 85rem; */
     }
+    
 
     .hero-data h1 {
         font-size: 8rem;
         line-height: 10rem;
     }
 
-    #explore {
-        margin: 10.5rem 0;
+    .hero-data p ,
+    .why_slider .swiper-slide .why_desc p,
+    #client .titel P,
+    .search p,
+    .main-titel p,
+    .client-mani-slider .client-data,
+    .main-titel1 p,
+    .client-mani-slider .client-name p  {
+        font-size: 16px;
     }
 
-    .swiper-wrapper {
-        padding: 0px 0px 60px 0px;
+    #explore {
+        margin: 15.5rem 0;
+    }
+
+    #explore .swiper-wrapper {
+        padding: 50px 0px 60px 0px;
     }
     .main-titel h2 {
         font-size: 55px;
         line-height: 65px;
         margin-bottom: 2rem;
     }
-
+    
     .explore-slider-section .swiper-button-prev,
     .swiper-button-next {
         width: 6rem;
@@ -992,16 +1018,22 @@ nav ul li ul li:hover i{
     }
 
     #why {
-        margin: 10.5rem 0;
+        margin: 15.5rem 0;
     }
     
     #why .why_data h1 {
         font-size: 55px;
     }
 
+    #why .why_data p {
+    font-size: 16px;
+    line-height: 34px;
+    }
+
     .why_images {
         margin: 0 70px;
     }
+    
     .why_btn .prev-1, .why_btn .next-1 {
         width: 6.5rem;
         height: 6.5rem;
@@ -1019,7 +1051,8 @@ nav ul li ul li:hover i{
     #client .swiper-slide{
         margin-left: 4rem;
     } 
-    #client .titel h2 {
+    #client .titel h2 ,
+    #why .why_data h2{
         font-size: 55px;
         line-height: 60px ;
     }
@@ -1031,11 +1064,11 @@ nav ul li ul li:hover i{
         line-height: 30px;
     }
     .client-slide-section .prev2 {
-        right: 23rem;
+        right: 17rem;
     }
     
     .client-slide-section .next2 {
-        right: 11rem;
+        right: 4rem;
     }
     
     .client-slide-section .next2,
@@ -1045,6 +1078,7 @@ nav ul li ul li:hover i{
     }
     .main-titel1 h2 {
         font-size: 55px;
+        margin-bottom: 2rem;
     }
      .type {
          margin-top: 6.8rem
@@ -1053,6 +1087,11 @@ nav ul li ul li:hover i{
         width: 33rem;
         height: 7rem;
      } 
+     .traveller p,
+     .contact ul li a,
+     .quick ul li a{
+        font-size: 16px;
+     }
     
 }
 
