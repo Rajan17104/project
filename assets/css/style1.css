@@ -136,7 +136,7 @@ header nav ul li ul {
     top: 6.2rem;
     left: 0;
     background-color: rgba(28, 35, 58, 0.4);
-    display: none;  
+    display: none;
     font-size: 2rem;
 
 }
@@ -173,12 +173,12 @@ header .search {
     display: none;
 }
 
-nav ul li a:hover i{
+nav ul li a:hover i {
     transform: rotate(90deg);
     transition: all 0.5s;
 }
 
-nav ul li ul li:hover i{
+nav ul li ul li:hover i {
     transform: rotate(90deg);
     transition: all 0.5s;
 }
@@ -248,7 +248,7 @@ nav ul li ul li:hover i{
     position: relative;
 }
 
-#hero::before{
+#hero::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -353,7 +353,7 @@ nav ul li ul li:hover i{
     transition: all 0.5s;
 }
 
- #explore .swiper-slide {
+#explore .swiper-slide {
     border-radius: 1rem;
     padding-top: 5rem;
 }
@@ -464,13 +464,13 @@ nav ul li ul li:hover i{
     position: relative;
 }
 
-#why::before{
+#why::before {
     content: '';
     position: absolute;
     inset: 0;
     background-color: rgba(0 0 0 / 0.4);
     height: 50rem;
-    
+
 }
 
 #why .swiper-slide {
@@ -478,7 +478,7 @@ nav ul li ul li:hover i{
     padding-top: 12rem;
 }
 
-#why .why_data{
+#why .why_data {
     position: relative;
     z-index: 9;
 }
@@ -523,7 +523,7 @@ nav ul li ul li:hover i{
 }
 
 .why_btn .prev-1 {
-    left: 10rem ;
+    left: 10rem;
     color: #727272;
 }
 
@@ -555,7 +555,7 @@ nav ul li ul li:hover i{
 }
 
 .why_btn .prev-1::after,
-.why_btn .next-1::after  {
+.why_btn .next-1::after {
     font-family: swiper-icons;
     font-size: 2.7rem;
     text-transform: none !important;
@@ -600,6 +600,7 @@ nav ul li ul li:hover i{
     border-radius: 10px;
     padding: 25px;
 }
+
 .why_desc img {
     margin: 5px;
 }
@@ -637,7 +638,7 @@ nav ul li ul li:hover i{
     margin: 17.8rem 0;
 }
 
-#client .titel{
+#client .titel {
     padding-left: 3rem;
 }
 
@@ -665,7 +666,7 @@ nav ul li ul li:hover i{
     margin-bottom: 13rem;
 }
 
-#client .swiper-slide{
+#client .swiper-slide {
     margin-left: 4.8rem;
 }
 
@@ -690,7 +691,7 @@ nav ul li ul li:hover i{
     padding-bottom: 5rem;
 }
 
-.client-mani-slider .client-name h5 {
+.client-mani-slider .client-name h4 {
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
@@ -755,7 +756,7 @@ nav ul li ul li:hover i{
 }
 
 .client-slide-section .prev2::after,
-.client-slide-section .next2::after  {
+.client-slide-section .next2::after {
     font-family: swiper-icons;
     font-size: 2.7rem;
     text-transform: none !important;
@@ -779,18 +780,19 @@ nav ul li ul li:hover i{
     background-repeat: no-repeat;
 }
 
-#subcribe::before{
+#subcribe::before {
     content: '';
     position: absolute;
     inset: 0;
     background-color: rgba(0 0 0 / 0.4);
-    
+
 }
 
-#subcribe .main-subcribe    {
+#subcribe .main-subcribe {
     position: relative;
     z-index: 9;
 }
+
 .type {
     width: 67.6rem;
     height: 6.9rem;
@@ -860,11 +862,11 @@ nav ul li ul li:hover i{
     display: flex;
     align-items: center;
     text-align: center;
-   color: #000;
+    color: #000;
 }
 
 .contact ul li a:hover,
-.contact ul li a:hover i{
+.contact ul li a:hover i {
     color: #069ABA;
 }
 
@@ -972,6 +974,7 @@ nav ul li ul li:hover i{
     header .container {
         padding: 0.5rem 2rem;
     }
+
     header nav ul li {
         padding: 2rem 2.5rem;
     }
@@ -980,21 +983,21 @@ nav ul li ul li:hover i{
         height: 100vh;
         /* height: 85rem; */
     }
-    
+
 
     .hero-data h1 {
         font-size: 8rem;
         line-height: 10rem;
     }
 
-    .hero-data p ,
+    .hero-data p,
     .why_slider .swiper-slide .why_desc p,
     #client .titel P,
     .search p,
     .main-titel p,
     .client-mani-slider .client-data,
     .main-titel1 p,
-    .client-mani-slider .client-name p  {
+    .client-mani-slider .client-name p {
         font-size: 16px;
     }
 
@@ -1005,12 +1008,13 @@ nav ul li ul li:hover i{
     #explore .swiper-wrapper {
         padding: 50px 0px 60px 0px;
     }
+
     .main-titel h2 {
         font-size: 55px;
         line-height: 65px;
         margin-bottom: 2rem;
     }
-    
+
     .explore-slider-section .swiper-button-prev,
     .swiper-button-next {
         width: 6rem;
@@ -1020,21 +1024,22 @@ nav ul li ul li:hover i{
     #why {
         margin: 15.5rem 0;
     }
-    
+
     #why .why_data h1 {
         font-size: 55px;
     }
 
     #why .why_data p {
-    font-size: 16px;
-    line-height: 34px;
+        font-size: 16px;
+        line-height: 34px;
     }
 
     .why_images {
         margin: 0 70px;
     }
-    
-    .why_btn .prev-1, .why_btn .next-1 {
+
+    .why_btn .prev-1,
+    .why_btn .next-1 {
         width: 6.5rem;
         height: 6.5rem;
     }
@@ -1048,112 +1053,275 @@ nav ul li ul li:hover i{
 
     }
 
-    #client .swiper-slide{
+    #client .swiper-slide {
         margin-left: 4rem;
-    } 
-    #client .titel h2 ,
-    #why .why_data h2{
-        font-size: 55px;
-        line-height: 60px ;
     }
+
+    #client .titel h2,
+    #why .why_data h2 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
     #client .titel h3 {
         font-size: 28px;
         line-height: 65px
     }
+
     #client .titel P {
         line-height: 30px;
     }
+
     .client-slide-section .prev2 {
         right: 17rem;
     }
-    
+
     .client-slide-section .next2 {
         right: 4rem;
     }
-    
+
     .client-slide-section .next2,
     .client-slide-section .prev2 {
         width: 6.5rem;
         height: 6.5rem;
     }
+
     .main-titel1 h2 {
         font-size: 55px;
         margin-bottom: 2rem;
     }
-     .type {
-         margin-top: 6.8rem
-     }
-     .traveller1 img{
+
+    .type {
+        margin-top: 6.8rem
+    }
+
+    .traveller1 img {
         width: 33rem;
         height: 7rem;
-     } 
-     .traveller p,
-     .contact ul li a,
-     .quick ul li a{
+    }
+
+    .traveller p,
+    .contact ul li a,
+    .quick ul li a {
         font-size: 16px;
-     }
-    
+    }
+
 }
 
-/* 1200 - 1365 (big ipad) 
+/* 1200 - 1365 (big ipad) */
 @media screen and (max-width: 1365px) {
     .container {
-        max-width: 95%;
+        max-width: 130rem;
+    }
+
+    header .container {
+        padding: 0.5rem 2rem;
     }
 
     header nav ul li {
-        padding: 1rem;
+        padding: 1.5rem 2rem;
+    }
+
+    header nav ul li a {
+        font-size: 1.6rem;
+    }
+
+    #hero {
+        height: 100vh;
+    }
+
+    #hero .search-data {
+        width: 64.6rem;
+        height: 6.8rem;
     }
 
     .hero-data h1 {
         font-size: 7rem;
-        line-height: 7rem;
+        line-height: 8rem;
+    }
+
+    .hero-data p,
+    .why_slider .swiper-slide .why_desc p,
+    #client .titel P,
+    .search p,
+    .main-titel p,
+    .client-mani-slider .client-data,
+    .main-titel1 p,
+    .client-mani-slider .client-name p {
+        font-size: 14px;
     }
 
     #explore {
-        margin: 10.5rem 0;
+        margin: 15.5rem 0;
+    }
+
+    #explore .swiper-wrapper {
+        padding: 50px 0px 60px 0px;
+    }
+
+    .explore-slider .card-text .explore-circle {
+        width: 7rem;
+        height: 6.6rem;
+    }
+
+    .explore-slider .card-text .explore-circle span {
+        padding-top: 0;
+    }
+    .explore-slider .card-text h2 {
+        font-size: 22px;
+    }
+
+    .swiper-slide .card-img img {
+        height: 90%;
     }
 
     .main-titel h2 {
         font-size: 50px;
         line-height: 60px;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .explore-slider-section .swiper-button-prev,
     .swiper-button-next {
-        width: 5rem;
-        height: 5rem;
-    }
-
-    #hero .search-data {
-        width: 60rem;
+        width: 6rem;
         height: 6rem;
     }
 
-    #hero .search-data .explore-btn {
-        padding: 1.5rem 2rem;
+    .explore-slider-section .swiper-button-prev:after,
+     .swiper-button-next:after {
+        font-size: 2.2rem;
     }
 
     #why {
-        margin: 10.5rem 0;
+        margin: 15.5rem 0;
+    }
+
+    #why .why_data h2 {
+        font-size: 50px;
+        line-height: 35px;
+    }
+
+    #why .why_data p {
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .why_slider .swiper-slide .why_desc h4 ,
+    .client-mani-slider .client-name h4 {
+        font-size: 21px;
     }
 
     .why_images {
         margin: 0 70px;
+        height: 400.75px;
     }
 
-    .swiper-slide .card-img img {
-        height: 80%;
+    .why_images .why_img {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .why_btn .prev-1,
+    .why_btn .next-1 {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .why_btn .prev-1 {
+        left: 2rem;
+    }
+
+    .why_btn .next-1 {
+        right: 2rem;
+    }
+
+    .why_btn .prev-1::after,
+     .why_btn .next-1::after {
+        font-size: 2.2rem;
+    }
+
+    #our {
+        margin: 12.5rem 0;
+    }
+
+    .main-titel p {
+        line-height: 30px;
+    }
+
+    .our-img img {
+        height: 3.5rem;
     }
 
     .client-container {
-        margin-left: calc((100% - 95%) / 2);
+        margin-left: calc((100% - 130rem) / 2);
+
+    }
+
+    #client .titel {
+        padding-left: 8rem;
+    }
+
+    #client .swiper-slide {
+        margin-left: rem;
     }
 
 
+
+    #client .titel h2,
+    #why .why_data h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    #client .titel h3 {
+        font-size: 28px;
+        line-height: 65px
+    }
+
+    #client .titel P {
+        line-height: 30px;
+    }
+
+    .client-slide-section .prev2 {
+        right: 17rem;
+    }
+
+    .client-slide-section .next2 {
+        right: 4rem;
+    }
+
+    .client-slide-section .next2,
+    .client-slide-section .prev2 {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .client-slide-section .prev2::after,
+     .client-slide-section .next2::after {
+        font-size: 2.2rem;
+
+     }
+     .main-titel1 h2 {
+        font-size: 50px;
+        margin-bottom: 2rem;
+    }
+    .type {
+        margin-top: 6.8rem
+    }
+
+    .traveller1 img {
+        width: 28rem;
+        height: 7rem;
+    }
+
+    .traveller p,
+    .contact ul li a,
+    .quick ul li a {
+        font-size: 14px;
+    }
+    
 }
-*/
+
 
 /* 992 - 1199 (big tablet) 
 @media screen and (max-width: 1199px) {
@@ -1182,4 +1350,3 @@ nav ul li ul li:hover i{
 
 }
 */
- 
