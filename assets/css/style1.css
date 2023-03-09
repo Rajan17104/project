@@ -1044,6 +1044,14 @@ nav ul li ul li:hover i {
         height: 6.5rem;
     }
 
+    .why_btn .prev-1 {
+        left: 4rem;
+    }
+
+    .why_btn .next-1 {
+        right: 4rem;
+    }
+
     #our {
         margin: 10rem 0 10rem;
     }
