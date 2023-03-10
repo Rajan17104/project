@@ -522,6 +522,10 @@ nav ul li ul li:hover i {
     box-shadow: 0px 8px 60px 0 rgba(0, 0, 0, 15%);
 }
 
+#why .swiper-wrapper {
+    padding: 46px 3px;
+}
+
 .why_btn .prev-1 {
     left: 10rem;
     color: #727272;
@@ -655,7 +659,7 @@ nav ul li ul li:hover i {
     font-size: 60px;
     line-height: 70px;
     color: #020202;
-    margin-bottom: 1.8rem;
+    /* margin-bottom: 1.8rem; */
 }
 
 #client .titel P {
@@ -667,28 +671,31 @@ nav ul li ul li:hover i {
 }
 
 #client .swiper-slide {
-    margin-left: 4.8rem;
+    padding-left: 4rem;
 }
 
 .client-Swiper .swiper-slide .client-mani-slider {
-    width: 39.9rem;
+    /* width: 39.9rem; */
     height: 43.2rem;
     background-color: #fff;
     box-shadow: 0 8PX 60PX 0 rgba(0, .0, 0, 0.15);
     border-radius: 1rem;
+    padding: 4rem;
+   
 }
 
 
 .swiper-slide .client-img {
-    margin-left: 13rem;
-    margin-bottom: -6rem;
+    /* margin-left: 13rem;*/
+    margin-bottom: -6rem; 
+    display: flex;
+    justify-content: center;
 
 }
 
 .client-mani-slider .client-name {
     text-align: center;
     padding-top: 20%;
-    padding-bottom: 5rem;
 }
 
 .client-mani-slider .client-name h4 {
@@ -707,10 +714,10 @@ nav ul li ul li:hover i {
 }
 
 .client-mani-slider .client-data {
-    padding-left: 5rem;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    padding-top: 6rem;
     color: #858585;
 }
 
@@ -1061,9 +1068,9 @@ nav ul li ul li:hover i {
 
     }
 
-    #client .swiper-slide {
+    /* #client .swiper-slide {
         margin-left: 4rem;
-    }
+    } */
 
     #client .titel h2,
     #why .why_data h2 {
@@ -1119,7 +1126,7 @@ nav ul li ul li:hover i {
 /* 1200 - 1365 (big ipad) */
 @media screen and (max-width: 1365px) {
     .container {
-        max-width: 130rem;
+        max-width: 95%;
     }
 
     header .container {
@@ -1160,7 +1167,7 @@ nav ul li ul li:hover i {
     }
 
     #explore {
-        margin: 15.5rem 0;
+        margin: 12.5rem 0;
     }
 
     #explore .swiper-wrapper {
@@ -1201,7 +1208,7 @@ nav ul li ul li:hover i {
     }
 
     #why {
-        margin: 15.5rem 0;
+        margin: 12.5rem 0;
     }
 
     #why .why_data h2 {
@@ -1220,8 +1227,7 @@ nav ul li ul li:hover i {
     }
 
     .why_images {
-        margin: 0 70px;
-        height: 400.75px;
+        margin: 0 60px;
     }
 
     .why_images .why_img {
@@ -1261,17 +1267,21 @@ nav ul li ul li:hover i {
     }
 
     .client-container {
-        margin-left: calc((100% - 130rem) / 2);
+        margin-left: calc((100% - 95%) / 2);
 
     }
 
+     /* .client-Swiper .swiper-wrapper{
+        padding: 63px 20px 25px;
+    } */
+/* 
     #client .titel {
         padding-left: 8rem;
     }
 
     #client .swiper-slide {
-        margin-left: rem;
-    }
+        margin-left: 4rem;
+    } */
 
 
 
