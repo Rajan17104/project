@@ -1068,9 +1068,9 @@ nav ul li ul li:hover i {
 
     }
 
-    /* #client .swiper-slide {
-        margin-left: 4rem;
-    } */
+   #client .swiper-slide {
+        padding-left: 3rem;
+    }
 
     #client .titel h2,
     #why .why_data h2 {
@@ -1129,20 +1129,16 @@ nav ul li ul li:hover i {
         max-width: 95%;
     }
 
-    header .container {
+    /* header .container {
         padding: 0.5rem 2rem;
-    }
+    } */
 
     header nav ul li {
         padding: 1.5rem 2rem;
     }
 
     header nav ul li a {
-        font-size: 1.6rem;
-    }
-
-    #hero {
-        height: 100vh;
+        font-size: 1.5rem;
     }
 
     #hero .search-data {
@@ -1163,7 +1159,7 @@ nav ul li ul li:hover i {
     .client-mani-slider .client-data,
     .main-titel1 p,
     .client-mani-slider .client-name p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     #explore {
@@ -1217,7 +1213,7 @@ nav ul li ul li:hover i {
     }
 
     #why .why_data p {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 35px;
     }
 
@@ -1271,20 +1267,6 @@ nav ul li ul li:hover i {
 
     }
 
-     /* .client-Swiper .swiper-wrapper{
-        padding: 63px 20px 25px;
-    } */
-/* 
-    #client .titel {
-        padding-left: 8rem;
-    }
-
-    #client .swiper-slide {
-        margin-left: 4rem;
-    } */
-
-
-
     #client .titel h2,
     #why .why_data h2 {
         font-size: 50px;
@@ -1316,8 +1298,7 @@ nav ul li ul li:hover i {
 
     .client-slide-section .prev2::after,
      .client-slide-section .next2::after {
-        font-size: 2.2rem;
-
+         font-size: 2.2rem;
      }
      .main-titel1 h2 {
         font-size: 50px;
@@ -1335,36 +1316,159 @@ nav ul li ul li:hover i {
     .traveller p,
     .contact ul li a,
     .quick ul li a {
-        font-size: 14px;
+        font-size: 15px;
     }
     
 }
 
 
-/* 992 - 1199 (big tablet) 
+/* 992 - 1199 (big tablet) */
 @media screen and (max-width: 1199px) {
     .container {
         max-width: 95%;
+    }
+
+    #main-header .container .logo img {
+        width: 16rem;
+        height: 4rem;
     }
 
     header nav ul li {
         padding: 1rem;
     }
 
-    #why {
-        margin: 10.5rem 0;
+    .hero-data h1 {
+        font-size: 6.5rem;
+        line-height: 7rem;
+    }
+
+    .hero-data p,
+    .why_slider .swiper-slide .why_desc p,
+    #client .titel P,
+    .search p,
+    .main-titel p,
+    .client-mani-slider .client-data,
+    .main-titel1 p,
+    .client-mani-slider .client-name p {
+        font-size: 14px;
 
     }
 
-    #main-header .container .logo img {
-        width: 15rem;
-        height: 4rem;
+    .hero-data p{
+        font-size: 14px;
+        line-height: 2.5rem;
     }
 
-    .our-img {
+    
+    .why_slider .swiper-slide .why_desc p,
+    #client .titel P,
+    .search p,
+    .main-titel p,
+    .client-mani-slider .client-data,
+    .main-titel1 p,
+    .client-mani-slider .client-name p {
+        font-size: 14px;
+    }
 
-        padding: 0 2rem;
+    #hero .search-data {
+        width: 59.6rem;
+        height: 6.5rem;
+    }
+
+    .main-titel h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .explore-slider-section .swiper-button-prev,
+     .swiper-button-next  {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .explore-slider-section .swiper-button-prev:after,
+    .swiper-button-next:after {
+       font-size: 2rem;
+   }
+
+   .explore-slider .card-text .explore-circle {
+        width: 6.5rem;
+        height: 6.2rem;
+    }
+
+    .explore-slider .card-text h2 {
+        font-size: 21px;
+    }
+
+    #client .titel h2, #why .why_data h2 {
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    #why .why_data p {
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .why_btn .prev-1::after,
+     .why_btn .next-1::after {
+        font-size: 2rem;
+    }
+
+    .why_btn .prev-1,
+    .why_btn .next-1 {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    /* .client-slide-section .next2,
+    .client-slide-section .prev2 {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .client-slide-section .prev2::after,
+     .client-slide-section .next2::after {
+         font-size: 2rem;
+     } */
+
+     .client-slide-section .prev2 {
+        right: 50rem;
+    }
+
+    .client-slide-section .next2 {
+        right: 38rem;
+    }
+
+    #client .swiper-slide {
+        padding: 0 4rem;
+    }
+
+    .main-titel1 h2 {
+        font-size: 45px;
+        margin-bottom: 1.5rem;
+    }
+
+    .main-subcribe .type{
+        width: 60rem;
+        /* height: 6.8rem;  */
+    }
+
+    .traveller1 img {
+        width: 25rem;
+        height: 6rem;
+    }
+
+    .contact h4,
+    .quick h4,
+    .follow h4{
+        font-size: 22px;
+    }
+
+    .traveller p,
+    .contact ul li a,
+    .quick ul li a {
+        font-size: 14px;
     }
 
 }
-*/
