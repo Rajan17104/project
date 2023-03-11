@@ -1342,18 +1342,6 @@ nav ul li ul li:hover i {
         line-height: 7rem;
     }
 
-    .hero-data p,
-    .why_slider .swiper-slide .why_desc p,
-    #client .titel P,
-    .search p,
-    .main-titel p,
-    .client-mani-slider .client-data,
-    .main-titel1 p,
-    .client-mani-slider .client-name p {
-        font-size: 14px;
-
-    }
-
     .hero-data p{
         font-size: 14px;
         line-height: 2.5rem;
@@ -1472,3 +1460,197 @@ nav ul li ul li:hover i {
     }
 
 }
+
+
+/* 768 - 991 (big tablet) 
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 95%;
+    }
+*/
+
+/* 768 - 991 (big tablet) */
+@media screen and (max-width:768px) {
+    nav>ul {
+        position: absolute;
+        width: 60%;
+        height: 100vh;
+        background-color: rgb(33, 176, 233);
+        top: 0;
+        right: 0;
+        transition: all 1s;
+    }
+
+    nav i{
+        color: #fff;
+    }
+    header nav ul li {
+        display: block;
+        padding: 2rem;
+        margin-top: 1rem;
+    }
+
+   
+    header nav ul li ul,
+    header nav ul li ul li ul {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    header nav ul li ul li>a {
+        padding-left: 40px;
+    }
+    header nav ul li ul li ul li>a {
+        padding-left: 60px;
+    }
+    header nav ul li a {
+        width: 100%;
+    }
+    nav ul>i {
+        padding: 20px;
+        font-size: 20px;
+        float: right;
+        z-index: 999;
+        position: relative;
+        display: inline-block !important;
+    }
+    nav>i {
+        font-size: 20px;
+        padding: 20px;
+        display: inline-block !important;
+    }
+    .showHide {
+        right: -70%;
+    }
+
+
+    ******************
+
+
+    .hero-data h1 {
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+
+    .hero-data p{
+        font-size: 13px;
+        line-height: 2.5rem;
+    }
+
+    
+    .why_slider .swiper-slide .why_desc p,
+    #client .titel P,
+    .search p,
+    .main-titel p,
+    .client-mani-slider .client-data,
+    .main-titel1 p,
+    .client-mani-slider .client-name p {
+        font-size: 13px;
+    }
+
+    #hero .search-data {
+        width: 57.6rem;
+        height: 6.2rem;
+    }
+
+    .main-titel h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .explore-slider-section .swiper-button-prev,
+     .swiper-button-next  {
+        width: 5rem;
+        height: 5rem;
+        margin-top: 2rem;
+    }
+
+   .explore-slider .card-text .explore-circle {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .explore-slider .card-text h2 {
+        font-size: 21px;
+    }
+
+    #client .titel h2, #why .why_data h2 {
+        font-size: 40px;
+        line-height: 65px;
+    }
+
+    #why {
+        margin: 10.5rem 0;
+    }
+
+    #why .why_data p {
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .why_images {
+        padding: 22px;
+    }
+
+    .why_btn .prev-1::after,
+     .why_btn .next-1::after {
+        font-size: 2rem;
+    }
+
+    .why_btn .prev-1,
+    .why_btn .next-1 {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    #our .our-img img {
+        width: 12rem;
+        height: 3rem;
+    }
+
+    #client .titel P {
+        line-height: 25px;
+    }
+
+    #client .titel h3 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .client-slide-section .prev2 {
+        right: 42rem;
+    }
+
+    .client-slide-section .next2 {
+        right: 27rem;
+    }
+
+    .main-titel1 h2 {
+        font-size: 40px;
+        margin-bottom: 1.5rem;
+    }
+   
+    .traveller1 img {
+        width: 25rem;
+        height: 6rem;
+    }
+
+    .contact h4,
+    .quick h4,
+    .follow h4{
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .traveller p,
+    .contact ul li a,
+    .quick ul li a {
+        font-size: 13px;
+    }
+
+    .follow a i {
+        font-size: 1.7rem;
+        padding-right: 0.3rem;
+    }
+} 
