@@ -355,7 +355,6 @@ nav ul li ul li:hover i {
 
 #explore .swiper-slide {
     border-radius: 1rem;
-    padding-top: 5rem;
 }
 
 .swiper-slide .card-img {
@@ -369,7 +368,7 @@ nav ul li ul li:hover i {
 }
 
 .swiper-wrapper {
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .explore-slider .card-text {
@@ -639,7 +638,7 @@ nav ul li ul li:hover i {
 }
 
 #client {
-    margin: 17.8rem 0;
+    margin: 12.8rem 0;
 }
 
 #client .titel {
@@ -1146,6 +1145,8 @@ nav ul li ul li:hover i {
         height: 6.8rem;
     }
 
+  
+
     .hero-data h1 {
         font-size: 7rem;
         line-height: 8rem;
@@ -1167,7 +1168,7 @@ nav ul li ul li:hover i {
     }
 
     #explore .swiper-wrapper {
-        padding: 50px 0px 60px 0px;
+        padding: 80px 0px 60px 0px;
     }
 
     .explore-slider .card-text .explore-circle {
@@ -1324,19 +1325,62 @@ nav ul li ul li:hover i {
 
 /* 992 - 1199 (big tablet) */
 @media screen and (max-width: 1199px) {
-    .container {
-        max-width: 95%;
+    nav>ul {
+        position: absolute;
+        width: 30%;
+        height: 100vh;
+        background-color: rgb(33, 176, 233);
+        top: 0;
+        right: 0;
+        transition: all 1s;
     }
 
-    #main-header .container .logo img {
-        width: 16rem;
-        height: 4rem;
+    nav i{
+        color: #fff;
     }
-
     header nav ul li {
-        padding: 1rem;
+        display: block;
+        padding: 2rem;
+        margin-top: 1rem;
     }
 
+    header .search {
+        color: #fff;
+        font-size: 1.5rem;
+        padding-left: 3.3rem;
+    }
+   
+    header nav ul li ul,
+    header nav ul li ul li ul {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    header nav ul li ul li>a {
+        padding-left: 40px;
+    }
+    header nav ul li ul li ul li>a {
+        padding-left: 60px;
+    }
+    header nav ul li a {
+        width: 100%;
+    }
+    nav ul>i {
+        padding: 20px;
+        font-size: 20px;
+        float: right;
+        z-index: 999;
+        position: relative;
+        display: inline-block !important;
+    }
+    nav>i {
+        font-size: 20px;
+        display: inline-block !important;
+    }
+    .showHide {
+        right: -70%;
+    }
     .hero-data h1 {
         font-size: 6.5rem;
         line-height: 7rem;
@@ -1345,6 +1389,10 @@ nav ul li ul li:hover i {
     .hero-data p{
         font-size: 14px;
         line-height: 2.5rem;
+    }
+
+    header .container {
+        padding: 1rem 2rem;
     }
 
     
@@ -1361,6 +1409,10 @@ nav ul li ul li:hover i {
     #hero .search-data {
         width: 59.6rem;
         height: 6.5rem;
+    }
+
+    #hero .search-data .explore-btn {
+        padding: 1.5rem 2rem;
     }
 
     .main-titel h2 {
@@ -1388,6 +1440,15 @@ nav ul li ul li:hover i {
         font-size: 21px;
     }
 
+    .swiper-slide .card-img img {
+        height: 90%;
+    }
+
+    .swiper-slide .card-img img {
+        object-fit: cover;
+        object-position: center;
+    }
+
     #client .titel h2, #why .why_data h2 {
         font-size: 45px;
         line-height: 65px;
@@ -1403,11 +1464,31 @@ nav ul li ul li:hover i {
         font-size: 2rem;
     }
 
+    .why_btn .prev-1 {
+        left: 5rem;
+    }
+
+    .why_btn .next-1{
+        right: 5rem;
+    }
     .why_btn .prev-1,
     .why_btn .next-1 {
         width: 5.5rem;
         height: 5.5rem;
     }
+    #explore {
+        margin: 11.5rem 0;
+    }
+    #why{
+        margin: 11.5rem 0;
+    }
+    #our{
+        margin: 11.5rem 0;
+    }
+    #client{
+        margin: 11.5rem 0;
+    }
+
 
     /* .client-slide-section .next2,
     .client-slide-section .prev2 {
@@ -1420,8 +1501,12 @@ nav ul li ul li:hover i {
          font-size: 2rem;
      } */
 
+     #client {
+        margin: 12.5rem 0;
+    }
+
      .client-slide-section .prev2 {
-        right: 50rem;
+        right: 52rem;
     }
 
     .client-slide-section .next2 {
@@ -1429,7 +1514,13 @@ nav ul li ul li:hover i {
     }
 
     #client .swiper-slide {
-        padding: 0 4rem;
+        padding: 0 5rem;
+    }
+
+    .our-img {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px 115px;
     }
 
     .main-titel1 h2 {
@@ -1442,8 +1533,12 @@ nav ul li ul li:hover i {
         /* height: 6.8rem;  */
     }
 
+    #top {
+        margin: 5rem 0;
+    }
+
     .traveller1 img {
-        width: 25rem;
+        width: 24rem;
         height: 6rem;
     }
 
@@ -1457,6 +1552,22 @@ nav ul li ul li:hover i {
     .contact ul li a,
     .quick ul li a {
         font-size: 14px;
+    }
+
+    .traveller{
+        width: 48%;
+    }
+
+    .contact{
+        width: 40%;
+    }
+
+    .quick{
+        width: 20%;
+    }
+
+    .follow{
+        width: 20%;
     }
 
 }
@@ -1473,7 +1584,7 @@ nav ul li ul li:hover i {
 @media screen and (max-width:768px) {
     nav>ul {
         position: absolute;
-        width: 60%;
+        width: 40%;
         height: 100vh;
         background-color: rgb(33, 176, 233);
         top: 0;
@@ -1489,6 +1600,13 @@ nav ul li ul li:hover i {
         padding: 2rem;
         margin-top: 1rem;
     }
+
+    header .search {
+        color: #fff;
+        font-size: 1.5rem;
+        padding-left: 1.3rem;
+    }
+   
 
    
     header nav ul li ul,
@@ -1527,12 +1645,6 @@ nav ul li ul li:hover i {
 
     ******************
 
-
-    .hero-data h1 {
-        font-size: 6rem;
-        line-height: 6rem;
-    }
-
     .hero-data p{
         font-size: 13px;
         line-height: 2.5rem;
@@ -1550,13 +1662,22 @@ nav ul li ul li:hover i {
     }
 
     #hero .search-data {
-        width: 57.6rem;
+        width: 49.6rem;
         height: 6.2rem;
+    }
+
+    .hero-data h1 {
+        font-size: 6.5rem;
+        line-height: 7rem;
     }
 
     .main-titel h2 {
         font-size: 40px;
         line-height: 45px;
+    }
+
+    #explore .swiper-wrapper {
+        padding: 111px 0px 60px 0px;
     }
 
     .explore-slider-section .swiper-button-prev,
@@ -1590,6 +1711,10 @@ nav ul li ul li:hover i {
     }
 
     .why_images {
+        margin: 0px 40px;
+    }
+
+    .why_images {
         padding: 22px;
     }
 
@@ -1600,13 +1725,18 @@ nav ul li ul li:hover i {
 
     .why_btn .prev-1,
     .why_btn .next-1 {
-        width: 5.5rem;
-        height: 5.5rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     #our .our-img img {
         width: 12rem;
         height: 3rem;
+    }
+
+
+    #client .swiper-slide {
+        padding: 0px 2.5rem;
     }
 
     #client .titel P {
@@ -1629,6 +1759,19 @@ nav ul li ul li:hover i {
     .main-titel1 h2 {
         font-size: 40px;
         margin-bottom: 1.5rem;
+    }
+
+    #explore {
+        margin: 10.5rem 0;
+    }
+    #why{
+        margin: 10.5rem 0;
+    }
+    #our{
+        margin: 10.5rem 0;
+    }
+    #client{
+        margin: 10.5rem 0;
     }
    
     .traveller1 img {
