@@ -1513,6 +1513,11 @@ nav ul li ul li:hover i {
         right: 38rem;
     }
 
+    #client .swiper-slide .client-img img {
+        width: 11rem;
+        height: 11rem;
+    }
+
     #client .swiper-slide {
         padding: 0 5rem;
     }
@@ -1584,7 +1589,7 @@ nav ul li ul li:hover i {
 @media screen and (max-width:768px) {
     nav>ul {
         position: absolute;
-        width: 40%;
+        width: 35%;
         height: 100vh;
         background-color: rgb(33, 176, 233);
         top: 0;
@@ -1687,6 +1692,10 @@ nav ul li ul li:hover i {
         margin-top: 2rem;
     }
 
+    .swiper-slide .card-img img {
+        height: 85%;
+    }
+
    .explore-slider .card-text .explore-circle {
         width: 6rem;
         height: 6rem;
@@ -1696,6 +1705,8 @@ nav ul li ul li:hover i {
         font-size: 21px;
     }
 
+    
+    
     #client .titel h2, #why .why_data h2 {
         font-size: 40px;
         line-height: 65px;
@@ -1795,5 +1806,49 @@ nav ul li ul li:hover i {
     .follow a i {
         font-size: 1.7rem;
         padding-right: 0.3rem;
+    }
+
+    .explore-slider .card-text .explore-circle {
+        top: -6.5rem;
+      
+    }
+
+    .explore-slider .swiper-slide:hover .card-img img {
+        border-radius: 1rem 1rem 0 0;
+        height: 23rem;
+    }
+
+    /* .swiper-wrapper .card-text {
+        opacity: 1;
+        border-radius: 0 0 1rem 1rem;
+    
+    } */
+
+    .swiper-slide .card-img {
+        height: 26rem;
+    }
+
+    .explore-slider .card-text .explore-circle span {
+        font-size: 5rem;
+    }
+
+    .traveller{
+        width: 50%;
+    }
+
+    .contact{
+        width: 40%;
+    }
+
+    .quick{
+        width: 20%;
+    }
+
+    .follow{
+        width: 17%;
+    }
+
+    .follow a i {
+        font-size: 1.5rem;
     }
 } 
