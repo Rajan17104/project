@@ -781,11 +781,11 @@ nav ul li ul li:hover i {
 #subcribe {
     background: url(../image/young-woman-hiker-taking-photo-with-smartphone-mountains-peak-winter.jpg);
     background-size: 100%;
-    height: 54rem;
+    /* height: 54rem; */
+    padding-bottom: 10rem;
     position: relative;
     background-repeat: no-repeat;
 }
-
 #subcribe::before {
     content: '';
     position: absolute;
@@ -1577,17 +1577,9 @@ nav ul li ul li:hover i {
 
 }
 
-
-/* 768 - 991 (big tablet) 
-@media screen and (max-width: 991px) {
-    .container {
-        max-width: 95%;
-    }
-*/
-
 /* 768 - 991 (big tablet) */
-@media screen and (max-width:768px) {
-    nav>ul {
+@media screen and (max-width:991px) {
+    /* nav>ul {
         position: absolute;
         width: 35%;
         height: 100vh;
@@ -1600,9 +1592,11 @@ nav ul li ul li:hover i {
     nav i{
         color: #fff;
     }
+
+    header nav ul {
+    }
     header nav ul li {
         display: block;
-        padding: 2rem;
         margin-top: 1rem;
     }
 
@@ -1645,11 +1639,57 @@ nav ul li ul li:hover i {
     }
     .showHide {
         right: -70%;
+    } */
+
+    nav > ul{
+        position: absolute;
+        width: 30%;
+        height: 100vh;
+        background-color: skyblue;
+        top: 0;
+        right: 0;
+        transition: all 1s;
     }
 
-
-    ******************
-
+    header nav ul li  {
+        display: block;
+        width: 100%;
+    }
+    header nav ul li ul, header nav ul li ul li ul{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    header nav ul li ul li, header nav ul li ul li a {
+        width: 100%;
+        /* padding: 1rem; */
+    }
+    /* header nav ul li ul li > a {
+        padding-left: 40px;
+    }
+    header nav ul li ul li ul li > a{
+        padding-left: 60px;
+    } */
+    header nav ul li a{
+        width: 100%;
+    }
+    nav ul > i{
+        padding: 20px;
+        font-size: 20px; 
+        float: right;
+        z-index: 999;
+        position: relative;
+        display: inline-block !important;
+    }
+    nav > i{
+        font-size: 20px;
+        padding: 20px;
+        display: inline-block !important;
+    }
+    .showHide{
+        right:-70%;
+    }
     .hero-data p{
         font-size: 13px;
         line-height: 2.5rem;
@@ -1697,8 +1737,8 @@ nav ul li ul li:hover i {
     }
 
    .explore-slider .card-text .explore-circle {
-        width: 6rem;
-        height: 6rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     .explore-slider .card-text h2 {
@@ -1745,9 +1785,12 @@ nav ul li ul li:hover i {
         height: 3rem;
     }
 
+    #client .swiper-wrapper {
+        padding: 40px 0;
+    }
 
     #client .swiper-slide {
-        padding: 0px 2.5rem;
+        padding: 0px 3rem;
     }
 
     #client .titel P {
@@ -1760,11 +1803,26 @@ nav ul li ul li:hover i {
     }
 
     .client-slide-section .prev2 {
-        right: 42rem;
+        right: 41rem;
     }
 
+    .client-slide-section .next2, .client-slide-section .prev2 {
+        width: 5rem;
+        height:5rem;
+    }
+    .client-slide-section .next2, .client-slide-section .prev2 {
+        top: -10rem;
+    }
+
+    .client-slide-section {
+        /* padding-top: 1.5rem; */
+    }
+
+    .client-slide-section .prev2::after, .client-slide-section .next2::after {
+        line-height: 0.6;
+    }
     .client-slide-section .next2 {
-        right: 27rem;
+        right: 28rem;
     }
 
     .main-titel1 h2 {
@@ -1786,8 +1844,8 @@ nav ul li ul li:hover i {
     }
    
     .traveller1 img {
-        width: 25rem;
-        height: 6rem;
+        width: 26rem;
+        height: 6.5rem;
     }
 
     .contact h4,
@@ -1813,27 +1871,32 @@ nav ul li ul li:hover i {
       
     }
 
+    .explore-slider .card-text .explore-circle span {
+        padding-top: 0.5rem;
+        padding-bottom: 5;
+    }
+
     .explore-slider .swiper-slide:hover .card-img img {
         border-radius: 1rem 1rem 0 0;
         height: 23rem;
     }
 
-    /* .swiper-wrapper .card-text {
-        opacity: 1;
-        border-radius: 0 0 1rem 1rem;
-    
-    } */
+        /* .swiper-wrapper .card-text {
+            opacity: 1;
+            border-radius: 0 0 1rem 1rem;
+        
+        } */
 
     .swiper-slide .card-img {
         height: 26rem;
     }
 
     .explore-slider .card-text .explore-circle span {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .traveller{
-        width: 50%;
+        width: 40%;
     }
 
     .contact{
@@ -1841,14 +1904,22 @@ nav ul li ul li:hover i {
     }
 
     .quick{
-        width: 20%;
+        width: 40%;
     }
 
     .follow{
-        width: 17%;
+        width: 40%;
     }
 
     .follow a i {
         font-size: 1.5rem;
+        padding: 0  0  0 6px;
     }
+
+    .buttom{
+        flex-wrap: wrap;
+        row-gap: 4rem;
+    }
+
+    
 } 
