@@ -108,7 +108,7 @@ header .container {
 }
 
 header nav ul li:hover {
-    background-color: rgba(28, 35, 58, 0.785);
+    background-color: rgba(97, 91, 91, 0.925);
     /* border-radius: 1rem;  */
     color: #000;
 }
@@ -135,7 +135,7 @@ header nav ul li ul {
     position: absolute;
     top: 6.2rem;
     left: 0;
-    background-color: rgba(28, 35, 58, 0.4);
+    background-color: rgba(97, 91, 91, 0.925);
     display: none;
     font-size: 2rem;
 
@@ -1327,9 +1327,9 @@ nav ul li ul li:hover i {
 @media screen and (max-width: 1199px) {
     nav>ul {
         position: absolute;
-        width: 30%;
+        width: 35%;
         height: 100vh;
-        background-color: rgb(33, 176, 233);
+        background-color: rgb(41, 133, 190);
         top: 0;
         right: 0;
         transition: all 1s;
@@ -1338,17 +1338,19 @@ nav ul li ul li:hover i {
     nav i{
         color: #fff;
     }
+    
     header nav ul li {
         display: block;
-        padding: 2rem;
         margin-top: 1rem;
     }
 
     header .search {
         color: #fff;
         font-size: 1.5rem;
-        padding-left: 3.3rem;
+        padding-left: 1.3rem;
     }
+   
+
    
     header nav ul li ul,
     header nav ul li ul li ul {
@@ -1376,11 +1378,26 @@ nav ul li ul li:hover i {
     }
     nav>i {
         font-size: 20px;
+        padding: 20px;
         display: inline-block !important;
     }
     .showHide {
         right: -70%;
     }
+
+    .container {
+        max-width: 95%;
+    }
+
+    header nav ul li {
+        padding: 2rem 0rem;
+    }
+
+    header nav ul li a {
+        padding-left: 1.5rem;
+        width: 100%;
+    }
+
     .hero-data h1 {
         font-size: 6.5rem;
         line-height: 7rem;
@@ -1579,11 +1596,11 @@ nav ul li ul li:hover i {
 
 /* 768 - 991 (big tablet) */
 @media screen and (max-width:991px) {
-    /* nav>ul {
+    nav>ul {
         position: absolute;
         width: 35%;
         height: 100vh;
-        background-color: rgb(33, 176, 233);
+        background-color: rgb(41, 133, 190);
         top: 0;
         right: 0;
         transition: all 1s;
@@ -1592,9 +1609,7 @@ nav ul li ul li:hover i {
     nav i{
         color: #fff;
     }
-
-    header nav ul {
-    }
+    
     header nav ul li {
         display: block;
         margin-top: 1rem;
@@ -1639,8 +1654,26 @@ nav ul li ul li:hover i {
     }
     .showHide {
         right: -70%;
-    } */
+    }
 
+    .container {
+        max-width: 95%;
+    }
+
+    header nav ul li {
+        padding: 2rem 0rem;
+    }
+
+    header nav ul li a {
+        padding-left: 1.5rem;
+        width: 100%;
+    }
+
+    .hero-data p{
+        font-size: 13px;
+        line-height: 2.5rem;
+    }
+/* 
     nav > ul{
         position: absolute;
         width: 30%;
@@ -1663,17 +1696,10 @@ nav ul li ul li:hover i {
     }
     header nav ul li ul li, header nav ul li ul li a {
         width: 100%;
-        /* padding: 1rem; */
+        padding: 1rem;
     }
-    /* header nav ul li ul li > a {
-        padding-left: 40px;
-    }
-    header nav ul li ul li ul li > a{
-        padding-left: 60px;
-    } */
-    header nav ul li a{
-        width: 100%;
-    }
+
+  
     nav ul > i{
         padding: 20px;
         font-size: 20px; 
@@ -1684,16 +1710,13 @@ nav ul li ul li:hover i {
     }
     nav > i{
         font-size: 20px;
-        padding: 20px;
         display: inline-block !important;
     }
     .showHide{
         right:-70%;
-    }
-    .hero-data p{
-        font-size: 13px;
-        line-height: 2.5rem;
-    }
+    } */
+
+    
 
     
     .why_slider .swiper-slide .why_desc p,
@@ -1922,4 +1945,78 @@ nav ul li ul li:hover i {
     }
 
     
+} 
+
+ /* 575 - 767 (mobaile landscape) */
+@media screen and (max-width:767px) {
+    
+    #why .why_data p {
+        font-size: 13px;
+        line-height: 35px;
+    }
+
+    .main-subcribe .type {
+        width: 41rem;
+        height: 6.8rem;
+    }
+
+    #hero .search-data {
+        width: 43.6rem;
+        height: 6.2rem;
+    }
+
+    #why .swiper-slide {
+        border-radius: 1rem;
+        padding-top: 10rem;
+    }
+    #why .why_btn{
+        padding-top: 5rem;
+    } 
+
+    .why_btn .next-1, .why_btn .prev-1 {
+        padding-top: 1.5rem;
+    }
+
+    .client-slide-section .prev2 {
+        right: 28rem;
+    }
+
+    .client-slide-section .next2 {
+        right: 15rem;
+    }
+    .type h4 {
+        font-size: 16px;
+        padding: 1.2rem;
+    }
+
+    .main-titel1 h2 {
+        line-height: 38px;
+        padding-top: 1.6rem;
+    }
+
+    .main-subcribe .type {
+        width: 41rem;
+        height: 5.8rem;
+    }
+    .type .type-btn button {
+        height: 4.5rem;
+    }
+
+    .type {
+        margin-top: 1.8rem;
+    }
+    #subcribe .main-subcribe p{
+        font-size: 12px;
+    }
+
+    .type .type-btn button {
+        padding: 0rem 3rem;
+    }
+
+    .traveller1 img {
+        height: 5.2rem;
+    }
+    .copyright p {
+        font-size: 15px;
+    }
 } 
